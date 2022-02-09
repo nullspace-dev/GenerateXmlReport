@@ -36,7 +36,7 @@ public class BurpExtender implements IBurpExtender, IExtensionStateListener
     {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
 
-        fileName = dtf.format(extensionLoadedTime) + ".xml";
+        fileName = "xml-report-" + dtf.format(extensionLoadedTime) + ".xml";
 
         File file = new File(folderPath + fileName);
 
