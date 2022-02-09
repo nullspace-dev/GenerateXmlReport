@@ -20,4 +20,5 @@ The filename of the scan will be the start time of the scan, in the format `yyyy
 
 ### Troubleshooting
 If the report has not been generated, check your scan log for any exceptions - Scan > Reporting & logs > Scan debug log.
+
 If you have received a `FileNotFoundException (Permission denied)`, then make sure that you are writing your report to a location where you have write permission.
