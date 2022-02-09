@@ -1,6 +1,8 @@
 # Generate XML Report
 For Burp Suite Enterprise Edition
 
+Please note that extensions are written by third party users of Burp, and PortSwigger makes no warranty about their quality or usefulness for any particular purpose.
+
 ---
 This extension will generate an XML report immediately after a scan has finished, containing all issues found. The file will be stored on the Scanning Machine that performed the scan.
 
