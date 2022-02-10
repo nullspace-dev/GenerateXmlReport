@@ -13,6 +13,12 @@ dependencies {
     implementation 'net.portswigger.burp.extender:burp-extender-api:2.3'
 }
 
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}
+
 task fatJar(type: Jar) {
     from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
