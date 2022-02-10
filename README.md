@@ -6,7 +6,7 @@ Please note that extensions are written by third party users of Burp, and PortSw
 ---
 This extension will generate an XML report immediately after a scan has finished, containing all issues found. The file will be stored on the Scanning Machine that performed the scan.
 
-The filename of the scan will be the start time of the scan, in the format `yyyy-MM-dd-HH-mm-ss`.
+The filename of the scan will be the start time of the scan, in the format `xml-report-yyyy-MM-dd-HH-mm-ss`.
 
 ## Limitations
 - File will be stored on Scanning Machine.
