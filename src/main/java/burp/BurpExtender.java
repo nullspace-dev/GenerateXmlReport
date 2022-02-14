@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 public class BurpExtender implements IBurpExtender, IExtensionStateListener
 {
     private String folderPath = "/var/log/BurpSuiteEnterpriseEdition/";     // CHANGE ME!
-//    private String folderPath = "/Users/hannah.law/Documents/extensiontest/";     // CHANGE ME!
     private String fileName;
 
     private IBurpExtenderCallbacks callbacks;
