@@ -12,7 +12,7 @@ The filename of the scan will be the start time of the scan, in the format `xml-
 - File will be stored on Scanning Machine.
 - False positives marked in the Enterprise UI will not be marked as such in the XML report.
 - Previous reports will not be removed from the folder, so ensure that you are regularly cleaning up old files.
-- This extension assumes you are using a Standard install. This has not been tested on a cloud deployment.
+- This extension assumes you are using a Standard install. This has not been tested on a Cloud deployment.
 
 ## Usage
 1. Download this repository, and check the `folderPath` variable in `BurpExtender.java` is pointed to a location where you have write permission **on the Scanning Machine**.
@@ -21,12 +21,12 @@ The filename of the scan will be the start time of the scan, in the format `xml-
 4. Run a scan as normal.
 5. Retrieve your scan from your Scanning Machine - it will be located according to the `folderPath` that is set. If in doubt, the file location and name will be output in the Scan log.
 
-### Troubleshooting
+## Troubleshooting
 If the report has not been generated, check your scan log for any exceptions - Scan > Reporting & logs > Scan debug log.
 
 If you have received a `FileNotFoundException (Permission denied)`, then make sure that you are writing your report to a location where you have write permission.
 
-#### Using Gradle
+### Using Gradle
 - If you do not have Gradle already installed, follow the installation instructions [here](https://gradle.org/install/).
 - Once Gradle is installed, run `gradle fatJar` from the installation directory using the command line.
 - Make sure you are using the latest version of Gradle.
