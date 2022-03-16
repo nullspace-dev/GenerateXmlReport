@@ -12,6 +12,7 @@ The filename of the scan will be the start time of the scan, in the format `xml-
 - File will be stored on Scanning Machine.
 - False positives marked in the Enterprise UI will not be marked as such in the XML report.
 - Previous reports will not be removed from the folder, so ensure that you are regularly cleaning up old files.
+- This extension assumes you are using a Standard install. This has not been tested on a cloud deployment.
 
 ## Usage
 1. Download this repository, and check the `folderPath` variable in `BurpExtender.java` is pointed to a location where you have write permission **on the Scanning Machine**.
